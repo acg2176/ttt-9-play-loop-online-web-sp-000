@@ -39,9 +39,9 @@ end
 
 def play(board)
   count = 0
-  until count == 10
-    turn(board)
+  loop do
     count += 1
+    if count < 10
+      turn(board)
   end
-
 end
