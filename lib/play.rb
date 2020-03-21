@@ -44,5 +44,6 @@ def play(board)
     turn(board)
     if count >= 10
       break
+    end
   end
 end
