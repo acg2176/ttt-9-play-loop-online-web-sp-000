@@ -40,9 +40,8 @@ end
 def play(board)
   count = 0
   loop do
-    turn(board)
     count +=1
-
+    turn(board)
     if count >= 10
       break
   end
